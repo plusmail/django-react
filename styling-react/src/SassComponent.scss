@@ -1,24 +1,4 @@
-$red: #fa5252;
-$orange: #fd7e14;
-$yellow: #fecb2f;
-$green: #00b894;
-$teal: #00cec9;
-$blue: #0984e3;
-$indigo: #6c5ce7;
-$purple: #b39ddb;
-$pink: #fd79a8;
-$gray: #e2e8f0;
-$darkGray: #959da5;
-$darkerGray: #6c7b8a;
-$black: #1d2124;
-$white: #ffffff;
-
-@mixin square ($size) {
-    $calculated: 32px * $size;
-    width: $calculated;
-    height: $calculated;
-  
-}
+@import './stypes/utils';
 
 .SassComponent {
     display: flex;
